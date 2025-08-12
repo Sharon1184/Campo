@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #2563EB;
+    --secondary-color: #10B981;
+    --accent-color: #F59E0B;
+    --bg-light: #F9FAFB;
+    --bg-white: #FFFFFF;
+    --bg-dark: #1E293B;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: #333;
+    line-height: 1.6;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+}
+
+.btn-primary:hover {
+    background-color: #1E40AF;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--bg-white);
+}
+
+.btn-secondary:hover {
+    background-color: #059669;
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    color: var(--bg-white);
+}
+
+.btn-accent:hover {
+    background-color: #D97706;
+}
+
+.card {
+    background-color: var(--bg-white);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
