@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile | Student Hub</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-inter">
+
+    <div class="max-w-4xl mx-auto p-6">
+        <div class="bg-gray-100 p-8 rounded-lg shadow-md flex flex-col items-center">
+            <img src="https://via.placeholder.com/150" alt="Profile" class="w-32 h-32 rounded-full border-4 border-[#1D4ED8]" />
+            <h1 class="mt-4 text-3xl font-bold text-[#1D4ED8]">Student Name</h1>
+            <p class="text-gray-600">Course, Year</p>
+            <p class="mt-4 text-center max-w-md">Bio goes here...</p>
+            <div class="mt-6 flex space-x-4">
+                <button class="btn btn-secondary">Edit Profile</button>
+                <button class="bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-full">Message</button>
+            </div>
+        </div>
+
+        <div class="mt-8 border-b border-gray-200">
+            <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+                <button class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-gray-500 hover:text-gray-700 hover:border-gray-300 transition">
+                    Posts
+                </button>
+                <button class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-gray-500 hover:text-gray-700 hover:border-gray-300 transition">
+                    Portfolio
+                </button>
+                <button class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-gray-500 hover:text-gray-700 hover:border-gray-300 transition">
+                    Marketplace Items
+                </button>
+            </nav>
+        </div>
+
+        <div class="mt-8 p-4">
+            <div>Posts will be displayed here...</div>
+        </div>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
